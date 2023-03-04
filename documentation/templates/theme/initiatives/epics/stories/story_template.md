@@ -6,10 +6,11 @@ Acceptance Criteria:
 1. The platform provides a course creation wizard that guides me through the process of creating a new course.
 2. The course creation wizard allows me to add a course title, description, and objectives.
 3. The course creation wizard allows me to upload course materials, such as videos, documents, and quizzes.
-4. The platform displays an error message if I leave any required fields blank or if I upload invalid file types.
-5. The course is automatically published after I complete the course creation wizard.
-6. The course is listed on the platform's course catalog.
-7. Automated testing with Playwright and pytest is implemented to ensure that the course creation wizard works as expected.
+4. The course creation Wizard doesn't allow me to add large Files beyond certain limit
+5. The platform displays an error message if I leave any required fields blank or if I upload invalid file types.
+6. The course is automatically published after I complete the course creation wizard.
+7. The course is listed on the platform's course catalog.
+8. Automated testing with Playwright and pytest is implemented to ensure that the course creation wizard works as expected.
 
 Story 2:
 As a teacher, I want to be able to edit my course on MyWebClass.org so that I can keep the course content up to date and relevant.
