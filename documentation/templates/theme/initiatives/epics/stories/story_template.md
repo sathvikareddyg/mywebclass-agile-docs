@@ -1,17 +1,39 @@
-"As a [user role], I want to [do something] so that [achieve a specific goal]."
-
-By following this template, you can create user stories that are structured and easy to understand. To make the user story even more effective, you can add acceptance criteria that specify the requirements that must be met to consider the user story complete. Here's an example of a user story with acceptance criteria:
-
-"As a customer, I want to view my order history so that I can track my past purchases."
+Story 1:
+As a teacher, I want to be able to create a new course on MyWebClass.org so that I can share my knowledge and expertise with students.
 
 Acceptance Criteria:
 
-The order history page displays a list of all past orders, including the date, order number, and total cost.
-Each order in the list is clickable and leads to a detailed view of the order.
-The detailed view of the order includes the list of items purchased, the quantities, the prices, and any discounts applied.
-The order history page can be accessed from the customer account dashboard.
-The order history page is only accessible to authenticated customers.
+1. The platform provides a course creation wizard that guides me through the process of creating a new course.
+2. The course creation wizard allows me to add a course title, description, and objectives.
+3. The course creation wizard allows me to upload course materials, such as videos, documents, and quizzes.
+4. The platform displays an error message if I leave any required fields blank or if I upload invalid file types.
+5. The course is automatically published after I complete the course creation wizard.
+6. The course is listed on the platform's course catalog.
+7. Automated testing with Playwright and pytest is implemented to ensure that the course creation wizard works as expected.
+
+Story 2:
+As a teacher, I want to be able to edit my course on MyWebClass.org so that I can keep the course content up to date and relevant.
+
+Acceptance Criteria:
+
+1. The platform provides a course editing interface that allows me to edit the course title, description, and objectives.
+2. The course editing interface allows me to add, delete, or modify course materials, such as videos, documents, and quizzes.
+3. The platform displays an error message if I leave any required fields blank or if I upload invalid file types.
+4. The course is automatically republished after I save my changes.
+5. The course detail page displays the latest course content.
+6. Automated testing with Playwright and pytest is implemented to ensure that the course editing interface works as expected.
+
+Story 3:
+As a teacher, I want to be able to view my students' progress in my course on MyWebClass.org so that I can track their learning and provide support if needed.
+
+Acceptance Criteria:
+
+1. The course progress page is accessible from the teacher dashboard.
+2. The course progress page displays a list of all the students enrolled in the course.
+3. The teacher can click on a student to view their progress in the course.
+4. The progress page displays the student's progress in the course, including completed modules and quizzes.
+5. The progress page displays a progress bar showing the student's overall progress in the course.
+6. Automated testing with Playwright is implemented to ensure that the progress page displays the correct information for each enrolled student.
 
 
-# List Stories related to this theme
-1. [Stories 1](documentation/templates/theme/initiatives/epics/stories/tasks/task_template.md)
+
