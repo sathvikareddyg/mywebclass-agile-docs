@@ -24,7 +24,7 @@ User Story: As a teacher, I want to be able to undo my changes in the course edi
 Description:
 
 Add an "undo" button to the course editing interface that allows teachers to revert their changes to the previous state.
-Ensure that the "undo" functionality works correctly with all course materials, including videos, documents, and quizzes.
+Ensure that the "undo" functionality works correctly with all course materials, including videos, documents, and quizzes. Make sure that the undo functionality is only enabled for teachers and not any other roles.
 Add automated testing with Playwright and pytest to ensure that the "undo" functionality works as expected.
 Effort Estimate: 8 hours
 
